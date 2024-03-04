@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <script defer src="questions.js"></script>
+    <script defer src="app.js"></script>
+    <link rel="shortcut icon" href="favIco.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="score">
+                <i class="fa-solid fa-star"></i>
+                <div class="headBox">
+                    <b id="soul">---</b>
+                </div>
+            </div>
+            <div class="score">
+                <strong>XAL:</strong>
+                <div class="headBox">
+                    <b id="score">---</b>
+                </div>
+            </div>
+        </header>
+
+        <section>
+            <article>
+                <div class="count">
+                    <h5>SUAL:</h5>
+                    <p id="questionCount">-</p>
+                </div>
+                <em id="questionText"></em>
+            </article>
+
+            <div id="variant" class="variant"></div>
+            <div id="variant" class="variant"></div>
+            <div id="variant" class="variant"></div>
+            <div id="variant" class="variant"></div>
+        </section>
+
+        <footer>
+            <button id="pass">
+                <h5>SUALI KEÇ</h5>
+                <p>
+                    <span id="balance">-</span> XAL
+                </p>
+            </button>
+
+            <button id="joker">
+                <p>50-50</p>
+            </button>
+        </footer>
+    </div>
+</body>
+
+</html>
